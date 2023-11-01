@@ -29,7 +29,7 @@ python环境为 python3.9
 python s2-061_exploit.py -p <利用参数> -u <URL> -c <命令> 
 - `-u` 或 `--url`：指定目标 URL。
 - `-c` 或 `--command`：指定要执行的命令。
-- `-p` 或 `--param`：指定 payload 参数。
+- `-p` 或 `--param`：指定 可利用的s2参数。
 
 示例：
 python3 s2-061_exploit.py -p id -u http://example.com/ -c "ls /tmp"
